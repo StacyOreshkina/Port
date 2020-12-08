@@ -1,0 +1,14 @@
+// font
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+
+// utilits
+@import 'utils/normalize' ;
+@import 'utils/vars' ;
+@import 'utils/mixins';
+
+// components & pages
+@import 'components/buttons' ;
+@import 'components/header';
+@import 'components/containers'

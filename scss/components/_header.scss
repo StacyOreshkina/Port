@@ -1,0 +1,8 @@
+.header{
+    @include fillscreen-box(url(../img/));
+    background-size: cover;
+}
+.full{
+    @include fillscreen-box(rgb(226, 199, 43));
+    border-bottom: 4px solid rgb(211, 163, 5) ;
+}

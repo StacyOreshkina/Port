@@ -1,0 +1,16 @@
+.primary-button{
+  @include primary-button(100px,50px);
+  background: yellow;
+}
+
+.primary-button{
+    @include primary-button;
+    background: rgb(28, 184, 41);
+  }
+  
+  .primary-button{
+    @include primary-button;
+    background: rgb(105, 13, 13);
+  }
+
+  

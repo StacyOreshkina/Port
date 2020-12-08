@@ -1,0 +1,10 @@
+
+.romb{
+    @include  custom-romb(380px,none,$primary-color,white);
+    margin: 100px;
+p{
+        &first-child{
+         transform: rotate(-45deg);
+        }
+}
+}
